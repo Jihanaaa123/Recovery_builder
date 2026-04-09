@@ -9,7 +9,7 @@ export BRANCH="twrp-9.0" # the branch of manifest
 export DEVICE="WALPAD8G_V2" # codename used in device tree
 export DT_LINK="https://github.com/TISnoob/twrp_device_walton_WALPAD8G_V2" # device tree link
 export DT_BRANCH="MT6761V/WBB" # device tree branch
-export VENDOR="Walton" # device manufacturer or vendor
+export VENDOR="walton" # device manufacturer or vendor
 export TARGET="recoveryimage" # build method: recoveryimage, bootimage, vendorboot
 export TYPE="omni" # recovery type: omni, twrp, something else
 
