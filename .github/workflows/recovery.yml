@@ -9,7 +9,12 @@ jobs:
     steps:
        - name: Init the System
          uses: actions/checkout@master
-
+         
+       - name: Set up Python
+         uses: actions/setup-python@v5
+         with:
+         python-version: '3.x' # Or a specific version like '3.10'
+    
        - name: remove pkg and setting repo
          run: |
             sudo apt update && sudo apt install wget zip
