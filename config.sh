@@ -11,7 +11,7 @@ export DT_LINK="https://github.com/TISnoob/twrp_device_walton_WALPAD8G_V2" # dev
 export DT_BRANCH="MT6761V/WBB" # device tree branch
 export VENDOR="walton" # device manufacturer or vendor
 export TARGET="recoveryimage" # build method: recoveryimage, bootimage, vendorboot
-export TYPE="twrp" # recovery type: omni, twrp, something else
+export TYPE="omni" # recovery type: omni, twrp, something else
 
 # you dont need to edit these
 export SYM="_"
